@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>p87</title>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+var oracion='el profesor angel poner practicas un poquito raras, pero el es jevi';
+var patron=/el/gi;
+var vec=patron.exec(oracion);
+document.write(vec.index); //0
+document.write('<br>');
+vec=patron.exec(oracion);
+document.write(vec.index); //14
+document.write('<br>');
+vec=patron.exec(oracion);
+document.write(vec.index); //33
+document.write('<br>');
+vec=patron.exec(oracion);
+document.write(vec); //null
+</script>
+
+</body>
+</html>
